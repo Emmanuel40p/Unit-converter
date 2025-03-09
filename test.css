@@ -1,0 +1,77 @@
+  body{
+    background-color :black;
+    
+  }
+input{
+  width : 180px;
+  height :50px;
+  border: none ;
+  outline :none;
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px; 
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left:12px ;
+}
+/*#label{
+  width: 300px;
+  height 120px;
+  background-color: cyan;
+  padding:30px;
+  color :red;
+  font-size:24px;
+  font-weight: bold ;
+}*/
+.label{
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-color: darkblue;
+  padding: 20px;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 10px;
+  padding-top: 120px;
+  
+}
+#submit{
+  width: 120px;
+  height :50px;
+  border-radius: 10px;
+  color :black;
+  background-color: cyan;
+  position: absolute;
+  left: 220px;
+}
+#resultEl{
+  color : white;
+  font-size: 19px;
+  position: absolute;
+  top: 250px;
+}
+
+#optionEl{
+  position: absolute;
+  top: 300px;
+  left: 20px;
+  color: white;
+  background-color: black;
+  border: 1px solid white;
+  outline: none;
+  width :30px;
+}
+#label2{
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-color: cyan;
+  padding: 20px;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 10px;
+  padding-top: 120px;
+  display : none;
+}

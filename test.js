@@ -9,6 +9,7 @@ let option2 = document.getElementById('option2')
 
 
 
+
 function convertFeet() {
   let inputNum = input.value;
   console.log(inputNum)
